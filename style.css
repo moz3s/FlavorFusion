@@ -19,11 +19,13 @@ main{
 }
 .hero{
     background-color: aqua;
-    height: 100vh;
+    height: calc(100vh - 3rem);
 }
 
 header{
+    top: 0;
     position: sticky;
+    width: 100%;
     background-color: var(--scnbg);
     height: 3rem;
 }
@@ -46,6 +48,9 @@ header ul a{
     font-size: 2rem;
     font-family: "Ubuntu", sans-serif;
 }
-.asd{
+.test{
+    width: 200px;
     height: 200px;
+    background-color: blue;
+    margin: 20rem;
 }
