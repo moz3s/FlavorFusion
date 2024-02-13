@@ -1,7 +1,8 @@
 :root{
     --bg: rgb(70, 17, 4);
     --scnbg: rgb(228, 214, 19);
-    --fontcl: #555555;
+    --fontcl: #dfb330;
+    --scnfontcl: #000;
 }
 
 body{
@@ -9,6 +10,8 @@ body{
     margin: 0;
     height: 2000rem;
     background-color: var(--bg);
+    font-family: "Kanit",sans-serif;
+    color: var(--fontcl)
 }
 
 
@@ -26,7 +29,7 @@ header{
     top: 0;
     position: sticky;
     width: 100%;
-    background-color: var(--scnbg);
+    background-color: var(--fontcl);
     height: 3rem;
 }
 
@@ -44,7 +47,7 @@ header ul li{
     list-style-type: none;
 }
 header ul a{
-    color: var(--fontcl);
+    color: var(--scnfontcl);
     font-size: 2rem;
     font-family: "Ubuntu", sans-serif;
 }
@@ -53,4 +56,17 @@ header ul a{
     height: 200px;
     background-color: blue;
     margin: 20rem;
+}
+/*Menü css*/
+h1{
+    font-size: 4rem;
+    text-align:center;
+}
+p{
+    font-size: 22px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 16rem 20px;
 }
