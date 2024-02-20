@@ -64,6 +64,7 @@ h1{
 }
 p{
     font-size: 22px;
+    padding-bottom: 15px;
 }
 table, th{
     margin-left: auto;
@@ -73,9 +74,16 @@ table, th{
 h2
 {
     text-align:center;
+    padding-bottom: 20px;
+    font-size: xx-large;
 }
 .menuk
 {
     text-align:center;
 
+}
+
+#kupon{
+    text-align:center;
+    font-size: x-large;
 }
