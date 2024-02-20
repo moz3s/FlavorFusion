@@ -68,9 +68,18 @@ p{
 table, th{
     margin-left: auto;
     margin-right: auto;
-    border-spacing: 23rem 20px;
+    border-spacing: 25rem 20px;
 }
 h2
 {
     text-align:center;
 }
+<<<<<<< HEAD
+=======
+.burgermenu
+{
+    margin-left:auto;
+    margin-right:auto;
+    border-spacing:50rem 20px;
+}
+>>>>>>> 98dfc03dab8742bf924cf6e4d6c36b5b5ec9a5aa
