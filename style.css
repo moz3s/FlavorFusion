@@ -68,5 +68,9 @@ p{
 table{
     margin-left: auto;
     margin-right: auto;
-    border-spacing: 16rem 20px;
+    border-spacing: 20rem 20px;
+}
+h2
+{
+    text-align:center;
 }
