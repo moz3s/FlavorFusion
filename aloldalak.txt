@@ -1,4 +1,10 @@
+<<<<<<< HEAD
             <a href="index.html"><li>Fő oldal</li></a>
             <a href="menu.html"><li>Menü</li></a>
             <a href="order.html"><li>Rendelés</li></a>
+=======
+            <a href="index.html"><li>Fő oldal</li></a>
+            <a href="menu.html"><li>Menü</li></a>
+            <a href="order.html"><li>Rendelés</li></a>
+>>>>>>> f962c41b41f68ed0d6544483b0cc8bfab94301c7
             <a href="aboutus.html"><li>Rólunk</li></a>
