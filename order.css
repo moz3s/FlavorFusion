@@ -73,6 +73,10 @@ label{
 input{
     margin-left: 1%;
     font-size: x-large;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .media
