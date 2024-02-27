@@ -6,10 +6,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="order.css">
     <title>FlavourFusion | Rendelés</title>
 </head>
-<body>
+<body id="order-body">
 
     </div>
     <header>
@@ -18,17 +18,26 @@
             <a href="menu.html"><li>Menü</li></a>
             <a href="kapcsolat.html"><li>Kapcsolat</li></a>
             <a href="rólunk.html"><li>Konyháról</li></a>
-            <a href="rólunk.html"><li>Rendelés</li></a>
+            <a href="order.html"><li>Rendelés</li></a>
         </ul>
+    <main id="order-main">
+        <h2>Rendelés:</h2>
+        <form>
+            <label for="fname">Vezeték név:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br><br>
+            <label for="lname">Utónév:</label><br>
+            <input type="text" id="lname" name="lname" value=""><br><br>
+            <label for="email">Email cím:</label><br>
+            <input type="email" id="email" name="email" value=""><br><br>
+            <label for="house">Lakcím:</label><br>
+            <input type="text" id="house" name="house" value=""><br><br>
+            <label for="number">Telefonszám:</label><br>
+            <input type="text" id="number" name="number" value=""><br><br>
+            <label for="enni">Ételek:</label><br>
+            <input type="text" id="enni" name="enni" value=""><br><br><br>
+            <input type="submit" id="submit" value="Submit">
+        </form> 
     </main>
-    <h2>Rendelés fajták:</h2>
-    <p>Helyben fogyasztás: <b>A város bármely pontján!</b></p>
-    <p>Weboldalról emailcímren keresztül: <b>FlavourFusion@gmail.com</b></p>
-    <p>Telefon számon keresztül: <b>+36 70 10 69 208</b></p>
-    <p>Foodora alkalmazás: <b>FlavourFusion</b></p>
-    <p>A rendelések kiszállítási ideje hozzávetőlegesen 30-90 percet vesz igénybe.(tartózkodási helytől is függ)</p>
-
-    <p id="kupon"><b>A Gazsi kuponkóddal 20% kedvezmény amit Veszprémben találhatók meg!!</b></p>
     
 
 </body>

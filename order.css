@@ -1,0 +1,98 @@
+:root{
+    --scnbg: rgb(228, 214, 19);
+    --fontcl: #dfb330;
+    --scnfontcl: #000;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 2000rem;
+    background-color: var(--bg);
+    font-family: "Kanit",sans-serif;
+    color: var(--fontcl);
+    opacity:   1;
+    
+}
+
+
+main{
+    background-color: var(--bg);
+    padding: 0;
+    margin: 0;
+}
+.hero{
+    background-color: aqua;
+    height: calc(100vh - 3rem);
+}
+
+header{
+    top: 0;
+    position: sticky;
+    width: 100%;
+    background-color: var(--fontcl);
+    height: 3rem;
+}
+
+header ul{
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+header ul li{
+    float: left;
+    list-style-type: none;
+}
+header ul a{
+    color: var(--scnfontcl);
+    font-size: 2rem;
+    font-family: "Ubuntu", sans-serif;
+}
+.test{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 20rem;
+}
+
+h2
+{
+    text-align:center;
+    font-size: xx-large;
+    margin: 0;
+}
+
+label{
+    font-size: x-large;
+    padding-left: 1%;
+}
+input{
+    margin-left: 1%;
+    font-size: x-large;
+}
+
+.media
+{
+    text-align:center
+}
+#submit{
+    font-size: xx-large;
+    border-radius: 10%;
+    margin-left: 7%;
+}
+#order-main{
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#order-body{
+    background-image: url(képek/rendelés.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
