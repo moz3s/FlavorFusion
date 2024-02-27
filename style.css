@@ -11,7 +11,9 @@ body{
     height: 2000rem;
     background-color: var(--bg);
     font-family: "Kanit",sans-serif;
-    color: var(--fontcl)
+    color: var(--fontcl);
+    opacity:   1;
+    
 }
 
 
@@ -74,8 +76,8 @@ table, th{
 h2
 {
     text-align:center;
-    padding-bottom: 20px;
     font-size: xx-large;
+    margin: 0;
 }
 .menuk
 {
@@ -86,14 +88,6 @@ h2
 
 #kupon{
     text-align:center;
-    font-size: x-large;
-}
-label{
-    font-size: x-large;
-    padding-left: 1%;
-}
-input{
-    margin-left: 1%;
     font-size: x-large;
 }
 
