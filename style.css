@@ -131,9 +131,66 @@ h2
 .olcsaemlek{
     text-align:center;
 }
-
-
-
+#burger_galeria{
+height: 1.5%;
+width: 50%;
+}
+#gyros_galeria{
+height: 1.5%;
+width: 50%;
+}
+#hotdog_galeria{
+height: 1.5%;
+width: 50%;
+}
+#palacsinta_galeria{
+height: 1.5%;
+width: 50%;
+}
+#krumpli_galeria{
+height: 1.5%;
+width: 50%;
+}
+#almaspite_galeria{
+height: 1.5%;
+width: 50%;
+}
+#galeriakep{
+padding-left: 16%;
+padding-top: 1%;
+padding-bottom: 3%;
+font-size: xx-large;
+}
+#ggaleriakep{
+padding-left: 20%;
+padding-top: 1%;
+padding-bottom: 3%;
+font-size: xx-large;
+}
+#hgaleriakep{
+padding-left: 18%;
+padding-top: 1%;
+padding-bottom: 3%;
+font-size: xx-large;
+}
+#pgaleriakep{
+padding-left: 17%;
+padding-top: 1%;
+padding-bottom: 3%;
+font-size: xx-large;
+}
+#kgaleriakep{
+padding-left: 18%;
+padding-top: 1%;
+padding-bottom: 3%;
+font-size: xx-large;
+}
+#agaleriakep{
+padding-left: 20%;
+padding-top: 1%;
+padding-bottom: 3%;
+font-size: xx-large;
+}
 
 
 @media only screen and (max-width: 768px ){
