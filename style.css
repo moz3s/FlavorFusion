@@ -148,3 +148,10 @@ h2
         display: block;
     }
 }
+
+main a:visited{
+    color:var(--scnbg)
+}
+main a{
+    color:var(--fontcl)
+}
