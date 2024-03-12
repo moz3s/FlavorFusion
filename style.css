@@ -12,7 +12,7 @@ body{
     background-color: var(--bg);
     font-family: "Kanit",sans-serif;
     color: var(--fontcl);
-    opacity:   1;
+    opacity: 1;
     
 }
 
@@ -37,9 +37,18 @@ main{
     margin: 1.2rem;
 }
 
-menu{
+
+header{
+    display: flex;
+    align-items: center;
+    top: 0;
+    position: sticky;
+    width: 100%;
+    background-color: var(--fontcl);
+    height: 4rem;
     margin: 0;
-    padding: 0;
+    z-index: 3;
+
 }
 .burger{
     background-color: var(--bg);
@@ -50,26 +59,11 @@ menu{
     justify-content: center;
     align-items: center;
 }
-
 .burgir{
-    cursor: pointer;
     background-image: url(HAMBURGER.PNG);
     width: 36px;
     height: 30px;
 }
-
-header{
-    top: 0;
-    position: sticky;
-    width: 100%;
-    background-color: var(--fontcl);
-    height: 4rem;
-    margin: 0;
-    z-index: 3;
-    display: flex;
-    align-items: center;
-}
-
 header ul{
     display: flex;
     justify-content: space-around;
@@ -84,7 +78,7 @@ header ul li{
 }
 header ul a{
     color: var(--scnfontcl);
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-family: "Ubuntu", sans-serif;
 }
 .test{
@@ -133,4 +127,24 @@ h2
     font-size: xx-large;
     border-radius: 10%;
     margin-left: 7%;
+}
+.olcsaemlek{
+    text-align:center;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px ){
+    header ul{
+        height: 4rem;
+        justify-content: space-evenly;
+    }
+    .pc{
+        display: none;
+    }
+    .phone{
+        display: block;
+    }
 }
