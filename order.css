@@ -68,15 +68,19 @@ h2
 
 label{
     font-size: x-large;
-    padding-left: 1%;
+    padding-left: 2%;
+    margin-left: 1%;
+    
+    
 }
 input{
-    margin-left: 1%;
+    margin-left: 3%;
     font-size: x-large;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  
 }
 
 .media
@@ -102,4 +106,8 @@ input{
 }
 #rendeles{
     color:white;
+}
+form{
+    padding-top: 3%;
+    
 }
