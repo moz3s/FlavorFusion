@@ -37,6 +37,27 @@ main{
     margin: 1.2rem;
 }
 
+menu{
+    margin: 0;
+    padding: 0
+}
+.burger{
+    background-color: var(--bg);
+    width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 3.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.burgir{
+    cursor: pointer;
+    background-image: url(HAMBURGER.PNG);
+    width: 36px;
+    height: 30px;
+}
+
 header{
     top: 0;
     position: sticky;
@@ -45,13 +66,14 @@ header{
     height: 4rem;
     margin: 0;
     z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-header ul{
-    position: sticky;
+header .pc ul{
     display: flex;
     justify-content: space-around;
-    align-items: center;
     padding: 0;
     margin: 0;
     height: 100%;
