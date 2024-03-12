@@ -106,7 +106,9 @@ table, th{
     margin-left: auto;
     margin-right: auto;
     border-spacing: 20rem 20px;
+
 }
+
 h2
 {
     text-align:center;
@@ -118,6 +120,7 @@ h2
     margin-left: auto;
     margin-right: auto;
     text-align:center;
+
 }
 
 #kupon{
@@ -129,8 +132,16 @@ h2
 {
     text-align:center
 }
+a
+{
+    color:#e4d9b7;
+    text-decoration:none;
+}
 #submit{
     font-size: xx-large;
     border-radius: 10%;
     margin-left: 7%;
+}
+.olcsaemlek{
+    text-align:center;
 }
