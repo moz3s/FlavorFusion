@@ -39,7 +39,7 @@ main{
 
 menu{
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 .burger{
     background-color: var(--bg);
@@ -68,12 +68,12 @@ header{
     z-index: 3;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
-header .pc ul{
+header ul{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 0;
     margin: 0;
     height: 100%;
@@ -106,9 +106,7 @@ table, th{
     margin-left: auto;
     margin-right: auto;
     border-spacing: 20rem 20px;
-
 }
-
 h2
 {
     text-align:center;
@@ -120,7 +118,6 @@ h2
     margin-left: auto;
     margin-right: auto;
     text-align:center;
-
 }
 
 #kupon{
@@ -132,16 +129,8 @@ h2
 {
     text-align:center
 }
-a
-{
-    color:#e4d9b7;
-    text-decoration:none;
-}
 #submit{
     font-size: xx-large;
     border-radius: 10%;
     margin-left: 7%;
-}
-.olcsaemlek{
-    text-align:center;
 }
