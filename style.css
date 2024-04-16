@@ -160,6 +160,77 @@ h2
     border-radius: 10%;
     margin-left: 7%;
 }
+.olcsaemlek{
+    text-align:center;
+}
+#burger_galeria{
+height: 1.5%;
+width: 50%;
+}
+#gyros_galeria{
+height: 1.5%;
+width: 50%;
+}
+#hotdog_galeria{
+height: 1.5%;
+width: 50%;
+}
+#palacsinta_galeria{
+height: 1.5%;
+width: 50%;
+}
+#krumpli_galeria{
+height: 1.5%;
+width: 50%;
+}
+#almaspite_galeria{
+height: 1.5%;
+width: 50%;
+}
+#galeriakep{
+padding-left: 16%;
+padding-top: 1%;
+padding-bottom: 3%;
+font-size: xx-large;
+}
+#ggaleriakep{
+padding-left: 20%;
+padding-top: 1%;
+padding-bottom: 3%;
+font-size: xx-large;
+}
+#hgaleriakep{
+padding-left: 18%;
+padding-top: 1%;
+padding-bottom: 3%;
+font-size: xx-large;
+}
+#pgaleriakep{
+padding-left: 17%;
+padding-top: 1%;
+padding-bottom: 3%;
+font-size: xx-large;
+}
+#kgaleriakep{
+padding-left: 18%;
+padding-top: 1%;
+padding-bottom: 3%;
+font-size: xx-large;
+}
+#agaleriakep{
+padding-left: 20%;
+padding-top: 1%;
+padding-bottom: 3%;
+font-size: xx-large;
+}
+
+
+@media only screen and (max-width: 768px ){
+    header ul{
+        height: 4rem;
+        justify-content: space-evenly;
+    }
+    .pc{
 
 @media only screen and (max-width: 1000px ){
     .motto{
@@ -169,10 +240,15 @@ h2
         margin-right: 1rem;
     }
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
 @media only screen and (max-width: 768px ){
     .title{
         font-size: 30px;
         padding: 0;
+>>>>>>> eab31e2fb2ff7df31c5546a1ac72339712a14476
 
     }
     .burger{
@@ -186,6 +262,12 @@ h2
         height: 28px;
     }
 }
+<<<<<<< HEAD
+main a{
+    color:var(--fontcl)
+}
+>>>>>>> 44415b7a6e864fde60e90a090ea768a2aa8b7d15
+=======
 .bal{
     text-align:left;
     font-size:35px;
@@ -199,8 +281,13 @@ h2
 .bemutatas{
     margin-right:5px;
     margin-left:20px;
+<<<<<<< HEAD
+}
+>>>>>>> eab31e2fb2ff7df31c5546a1ac72339712a14476
+=======
     font-family:'Ubuntu';
 }
 .font{
         font-family:'Ubuntu';
     }
+>>>>>>> ca546f65f4d123c96441d0f41ab3ff7491f3ff46
