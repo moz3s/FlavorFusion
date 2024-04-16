@@ -205,3 +205,13 @@ font-size: xx-large;
         display: block;
     }
 }
+<<<<<<< HEAD
+=======
+
+main a:visited{
+    color:var(--scnbg)
+}
+main a{
+    color:var(--fontcl)
+}
+>>>>>>> 44415b7a6e864fde60e90a090ea768a2aa8b7d15
