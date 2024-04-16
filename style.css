@@ -224,13 +224,10 @@ padding-bottom: 3%;
 font-size: xx-large;
 }
 
-
-@media only screen and (max-width: 768px ){
     header ul{
         height: 4rem;
         justify-content: space-evenly;
     }
-    .pc{
 
 @media only screen and (max-width: 1000px ){
     .motto{
