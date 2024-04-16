@@ -240,16 +240,10 @@ font-size: xx-large;
         margin-right: 1rem;
     }
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
 @media only screen and (max-width: 768px ){
     .title{
         font-size: 30px;
         padding: 0;
->>>>>>> eab31e2fb2ff7df31c5546a1ac72339712a14476
-
     }
     .burger{
         margin-left: 10px;
@@ -262,12 +256,9 @@ font-size: xx-large;
         height: 28px;
     }
 }
-<<<<<<< HEAD
 main a{
     color:var(--fontcl)
 }
->>>>>>> 44415b7a6e864fde60e90a090ea768a2aa8b7d15
-=======
 .bal{
     text-align:left;
     font-size:35px;
@@ -281,13 +272,8 @@ main a{
 .bemutatas{
     margin-right:5px;
     margin-left:20px;
-<<<<<<< HEAD
-}
->>>>>>> eab31e2fb2ff7df31c5546a1ac72339712a14476
-=======
     font-family:'Ubuntu';
 }
 .font{
         font-family:'Ubuntu';
     }
->>>>>>> ca546f65f4d123c96441d0f41ab3ff7491f3ff46
