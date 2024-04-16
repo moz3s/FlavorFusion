@@ -160,7 +160,6 @@ h2
     border-radius: 10%;
     margin-left: 7%;
 }
-<<<<<<< HEAD
 .olcsaemlek{
     text-align:center;
 }
@@ -232,11 +231,9 @@ font-size: xx-large;
         justify-content: space-evenly;
     }
     .pc{
-=======
 
 @media only screen and (max-width: 1000px ){
     .motto{
->>>>>>> eab31e2fb2ff7df31c5546a1ac72339712a14476
         display: none;
     }
     .title{
@@ -284,5 +281,13 @@ main a{
 .bemutatas{
     margin-right:5px;
     margin-left:20px;
+<<<<<<< HEAD
 }
 >>>>>>> eab31e2fb2ff7df31c5546a1ac72339712a14476
+=======
+    font-family:'Ubuntu';
+}
+.font{
+        font-family:'Ubuntu';
+    }
+>>>>>>> ca546f65f4d123c96441d0f41ab3ff7491f3ff46
