@@ -186,3 +186,17 @@ h2
         height: 28px;
     }
 }
+.bal{
+    text-align:left;
+    font-size:35px;
+    margin-bottom:10px;
+}
+.szoveg{
+    margin-bottom:0px;
+    font-size:25px;
+    
+}
+.bemutatas{
+    margin-right:5px;
+    margin-left:20px;
+}
