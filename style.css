@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 :root{
     --bg: rgb(70, 17, 4);
+    --bg2: rgb(15, 3, 1);
     --scnbg: rgb(228, 214, 19);
     --fontcl: #dfb330;
     --scnfontcl: #000;
@@ -8,20 +12,15 @@
 body{
     padding: 0;
     margin: 0;
-    height: 2000rem;
+    height: 100%;
+    min-height: 100vh;
     background-color: var(--bg);
     font-family: "Kanit",sans-serif;
     color: var(--fontcl);
-    opacity: 1;
     
 }
 
 
-main{
-    background-color: var(--bg);
-    padding: 0;
-    margin: 0;
-}
 .hero{
     width: 100%;
     margin: 0;
@@ -39,9 +38,10 @@ main{
 
 
 header{
+    top: 0;
     display: flex;
     align-items: center;
-    top: 0;
+    justify-content: space-between;
     position: sticky;
     width: 100%;
     background-color: var(--fontcl);
@@ -50,7 +50,35 @@ header{
     z-index: 3;
 
 }
+menu{
+    top: 4rem;
+    position: fixed;
+    margin:0;
+    padding: 0;
+    padding-bottom: 50px;
+    padding-top: 1rem;
+    width: 230px;
+    background-color: var(--bg2);
+    border-right: 6px solid var(--fontcl);
+    border-bottom: 6px solid var(--fontcl);
+    transition: 0.4s;
+    transform: translateX(-100%);
+    z-index: 10;
+}
+.title{
+    padding-left: 10%;
+    font-size: 60px;
+    color: white;
+    font-family: "Permanent Marker", sans-serif;
+}
+.motto{
+    color: #ffffff;
+    font-size: xx-large;
+    font-family: "Permanent Marker", sans-serif;
+    margin-right: 2rem;
+}
 .burger{
+    margin-left: 22px;
     background-color: var(--bg);
     width: 3.6rem;
     height: 3.6rem;
@@ -58,29 +86,35 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    transition: 0.2s;
 }
 .burgir{
     background-image: url(HAMBURGER.PNG);
     width: 36px;
     height: 30px;
 }
-header ul{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-    height: 100%;
+.burger:hover{
+    background-color: var(--bg2);
+    
 }
-header ul li{
-    float: left;
-    list-style-type: none;
-}
-header ul a{
-    color: var(--scnfontcl);
+menu ul a{
+    color: var(--fontcl);
     font-size: 1.6rem;
     font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
+    
 }
+menu ul li{
+    margin-top: 0.8rem;
+    list-style-type: none;
+    transition: 0.4s;
+}
+menu ul li:hover{
+    color: #eee1bb;
+    margin-left: 2rem;
+}
+
 .test{
     width: 200px;
     height: 200px;
@@ -109,8 +143,6 @@ h2
 }
 .menuk
 {
-    margin-left: auto;
-    margin-right: auto;
     text-align:center;
 }
 
@@ -128,6 +160,7 @@ h2
     border-radius: 10%;
     margin-left: 7%;
 }
+<<<<<<< HEAD
 .olcsaemlek{
     text-align:center;
 }
@@ -199,19 +232,57 @@ font-size: xx-large;
         justify-content: space-evenly;
     }
     .pc{
+=======
+
+@media only screen and (max-width: 1000px ){
+    .motto{
+>>>>>>> eab31e2fb2ff7df31c5546a1ac72339712a14476
         display: none;
     }
-    .phone{
-        display: block;
+    .title{
+        margin-right: 1rem;
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+@media only screen and (max-width: 768px ){
+    .title{
+        font-size: 30px;
+        padding: 0;
+>>>>>>> eab31e2fb2ff7df31c5546a1ac72339712a14476
 
-main a:visited{
-    color:var(--scnbg)
+    }
+    .burger{
+        margin-left: 10px;
+        width: 2.8rem;
+        height: 2.8rem;
+        border-radius: 2.8rem;
+    }
+    .burgir{
+        width: 28px;
+        height: 28px;
+    }
 }
+<<<<<<< HEAD
 main a{
     color:var(--fontcl)
 }
 >>>>>>> 44415b7a6e864fde60e90a090ea768a2aa8b7d15
+=======
+.bal{
+    text-align:left;
+    font-size:35px;
+    margin-bottom:10px;
+}
+.szoveg{
+    margin-bottom:0px;
+    font-size:25px;
+    
+}
+.bemutatas{
+    margin-right:5px;
+    margin-left:20px;
+}
+>>>>>>> eab31e2fb2ff7df31c5546a1ac72339712a14476
