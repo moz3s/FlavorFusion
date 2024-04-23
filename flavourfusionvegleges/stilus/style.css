@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+:root{
+    --bg: rgb(70, 17, 4);
+    --bg2: rgb(15, 3, 1);
+    --bg3: rgb(80, 7, 7);
+    --scnbg: rgb(228, 214, 19);
+    --fontcl: #dfb330;
+    --scnfontcl: #000;
+    --acolor: #faf8e5;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    min-height: 100vh;
+    background-color: var(--bg);
+    font-family: "Kanit",sans-serif;
+    color: var(--fontcl);
+    display: flex;
+    flex-direction: column;
+    
+}
+main{
+    flex: 1;
+}
+p{
+    margin: 1rem;
+}
+a{
+    text-decoration: none;
+    color: var(--acolor)
+}
+a:visited{
+    color: var(--acolor);
+}
+.latvany{
+    margin: 2rem;
+    width: 85%;
+    max-width: 700px;
+}
+.hero{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.hero video{
+    width: 100%;
+    max-height: calc(100vh - 8rem);
+    margin: 1.2rem;
+}
+
+
+header{
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    width: 100%;
+    background-color: var(--fontcl);
+    box-shadow: 0px 0px 50px var(--bg2);
+    height: 4rem;
+    margin: 0;
+    z-index: 3;
+
+}
+menu{
+    top: 4rem;
+    position: fixed;
+    margin:0;
+    padding: 0;
+    padding-bottom: 50px;
+    padding-top: 1rem;
+    width: 230px;
+    background-color: var(--bg2);
+    border-right: 6px solid var(--fontcl);
+    border-bottom: 6px solid var(--fontcl);
+    transition: 0.4s;
+    transform: translateX(-100%);
+    z-index: 10;
+}
+.title{
+    padding-left: 10%;
+    font-size: 60px;
+    color: white;
+    font-family: "Permanent Marker", sans-serif;
+}
+.motto{
+    color: #ffffff;
+    font-size: xx-large;
+    font-family: "Permanent Marker", sans-serif;
+    margin-right: 2rem;
+}
+.burger{
+    margin-left: 22px;
+    background-color: var(--bg);
+    width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 3.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.burgir{
+    background-image: url(../képek/HAMBURGER.PNG);
+    width: 36px;
+    height: 30px;
+}
+.burger:hover{
+    background-color: var(--bg2);
+    
+}
+menu ul a{
+    color: var(--fontcl);
+    font-size: 1.6rem;
+    font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
+    
+}
+menu ul li{
+    color: var(--acolor);
+    margin-top: 0.8rem;
+    list-style-type: none;
+    transition: 0.4s;
+}
+menu ul li:hover{
+    color: var(--fontcl);
+    margin-left: 2rem;
+}
+
+
+/*Menü css*/
+h1{
+    font-size: 4rem;
+    text-align:center;
+}
+p{
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+table, th{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 20rem 20px;
+    font-size: 20px;
+}
+
+td{
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+h2
+{
+    text-align:center;
+    font-size: xx-large;
+    margin: 0;
+    padding-bottom: 1.6rem;
+    padding-top: 5rem;
+}
+h4{
+    color: var(--fontcl);
+}
+#topmoka{
+    padding-top: 1rem;
+}
+.bottomtable{ 
+    margin-bottom: 3rem;}
+.menuk
+{
+    text-align:center;
+}
+
+#kupon{
+    text-align:center;
+    font-size: x-large;
+}
+
+.media
+{
+    text-align:center
+}
+
+.bal{
+    font-size: 23px;
+    text-align: center;
+}
+.bemutatas{
+    width: 100%;
+}
+
+/*order*/
+
+input{
+
+    background-color: #fff;
+    height: 35px;
+    padding: 3px 7px;
+    line-height: normal;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    outline: 0;
+    color: #111;
+    font-size: 13px;
+
+}
+
+
+input:focus{
+    border-color: #e77600;
+    box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+}
+#submit{
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.order{
+    margin: 0.5rem;
+    padding: 1.2rem;
+    border: 1px solid var(--fontcl)
+}
+form{
+    margin-left: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    z-index: 10;
+}
+
+
+.foodorder ul li{
+    list-style-type:none;
+    color: var(--acolor);
+    font-size: 19px;
+}
+.foodorder ul li:hover{
+    color: var(--fontcl);
+    cursor: pointer;
+}
+
+.dropdown{
+    margin:0.5rem;
+}
+
+[class*="option"]{
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(214, 214, 214);
+    border-radius: 10px;
+}
+
+.option1{
+    background-image: url(../képek/hamburger.jpg);
+}
+.option2{
+    background-image: url(../képek/hot\ dog.jpg);
+}
+.option3{
+    background-image: url(../képek/krumpli.jpg);
+}
+.option4{
+    background-image: url(../képek/kfc_hun_3_dip_440x440.png);
+}
+.option5{
+    background-image: url(../képek/almas-pite.jpg);
+}
+.option6{
+    background-image: url(../képek/palacsinta_csokikrem.jpg);
+}
+.option7{
+    background-image: url(../képek/limo.png);
+}
+
+
+
+.dropdown-menu{
+    background-color: var(--bg);
+    border: 2px solid var(--fontcl);
+}
+.dropdown-menu .dropdown-item{
+    background-color: var(--bg);
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: var(--bg3);
+}
+
+.dropdown-toggle{
+    border: 2px solid var(--fontcl);
+    border-radius: 2px;
+    font-size: 21px;
+    outline: none;
+    width: 100%;
+}
+label{
+    color: white;
+    font-size: 24px;
+}
+
+
+
+
+
+
+#choosenitem{
+    margin-bottom: 3rem;
+}
+#choosenitem p{
+    border: 1px solid var(--fontcl);
+    text-align: center;
+    background-color: #2e2e2e;
+}
+
+#choosenitem button{
+    display: inline;
+    background-color: #000;
+    color: white;
+    outline: none;
+    border: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: #00000000 2px solid;
+
+}
+
+#choosenitem button:active{
+    border: red 2px solid;
+}
+#choosenitemname{
+    font-size: 24px;
+}
+
+.quantity{
+    margin-right: 0.3rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid black;
+
+}
+
+#ordernext{
+    outline: none;
+    border: none;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: var(--bg2);
+    text-align: center;
+    padding: 2.4rem;
+}
+
+@media only screen and (max-width: 1000px ){
+    .motto{
+        display: none;
+    }
+    .title{
+        margin-right: 1rem;
+    }
+}
+@media only screen and (max-width: 768px ){
+    .title{
+        font-size: 30px;
+        padding: 0;
+
+    }
+    .burger{
+        margin-left: 10px;
+        width: 2.8rem;
+        height: 2.8rem;
+        border-radius: 2.8rem;
+    }
+    .burgir{
+        width: 28px;
+        height: 28px;
+    }
+    h1{
+        font-size: 38px;
+    }
+    td{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    table{
+        font-size: 18px;
+    }
+    .latvany{
+        margin: 0.4rem;
+        min-width: 270px;
+    }
+}
